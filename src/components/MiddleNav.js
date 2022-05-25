@@ -1,5 +1,6 @@
 
 
+
 function MiddleNav() {
     return (
       <div className="middle-nav-container">
