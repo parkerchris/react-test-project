@@ -10,8 +10,8 @@ function App() {
   return (
     <div>
       <TopNav />
-      <MiddleNav />
       <BottomNav />
+      <MiddleNav />
       <PropertyCardContainer />
       
     </div>

@@ -15,8 +15,7 @@ function MiddleNav() {
       <div className="middle-nav-container">
           <div className="middle-nav-contains">
               <button className="main-cta" onClick={handleClick}><p>Add a property</p></button>
-              
-              <Analytics />
+              <button className="property-filter">Filters</button>
           </div>
           { showPropertyModal && <PropertyModal/> }
 
