@@ -11,6 +11,7 @@ function PropertyCardContainer() {
 
    const propertyElement = properties.map(property => {
       return (<PropertyCard 
+                  key={property.id}
                   addressNumber={property.address_number}
                   addressStreet={property.address_street}
                   addressCity={property.address_city}

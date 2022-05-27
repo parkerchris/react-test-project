@@ -1,13 +1,25 @@
 
 import Analytics from "./Analytics";
+import PropertyModal from "./PropertyModal";
+import React,{useState} from 'react'
 
 function MiddleNav() {
-    return (
+    
+  const [ showPropertyModal, setShowPropertyModal ] = useState(false)
+
+  function handleClick() {
+    setShowPropertyModal(prevState => !prevState)
+  }
+  
+  return (
       <div className="middle-nav-container">
           <div className="middle-nav-contains">
-              <div className="main-cta"><p>Add a property</p></div>
+              <button className="main-cta" onClick={handleClick}><p>Add a property</p></button>
+              
               <Analytics />
           </div>
+          { showPropertyModal && <PropertyModal/> }
+
       </div>
     );
   }

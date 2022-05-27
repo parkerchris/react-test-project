@@ -36,10 +36,22 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid rgb(221, 221, 221);
+  border: none;
+  /* border: 1px solid rgb(221, 221, 221); */
   /* background: linear-gradient(to right,#FF385C 0%,#E61E4D 27.5%,#E31C5F 40%,#D70466 57.5%,#BD1E59 75%,#BD1E59 100%); */
   background: linear-gradient(to right,#E61E4D 0%,#E31C5F 50%,#D70466 100%);
 } 
+
+.property-filter {
+  height: 48px;
+  border-radius: 6px;
+  border: 1px solid rgb(221, 221, 221);
+  font-size: 12px;
+  font-weight: bold;
+  background-color: transparent;
+  padding-left: 25px;
+  padding-right: 25px;
+}
 
 .analytics-container,
 .analytics-inner {
@@ -67,6 +79,10 @@
 
 .analytics-inner p {
   font-size: 12px;
+}
+
+.main-cta:hover {
+  cursor: pointer;
 }
 
 .main-cta P {
@@ -163,10 +179,19 @@
   border-bottom: 3px solid black !important;
 }
 
+/* Property Modal  */
 
 form {
   border: 1px solid black;
   width: 1000px;
   height: 250px;
   border-radius: 5px;
+}
+
+input {
+  padding: 10px;
+}
+
+.property-modal-close {
+  float: right;
 }

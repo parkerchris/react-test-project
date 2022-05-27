@@ -23,9 +23,13 @@ function PropertyModal() {
             }
         })
     }
+
+    console.log(formData)
     
     return (
         <form>
+            <div className="property-modal-close">X</div>
+            <h1>Add a property</h1>
             <input 
                 type="text"
                 placeholder="enter a street number"

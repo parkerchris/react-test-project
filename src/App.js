@@ -12,7 +12,6 @@ function App() {
       <TopNav />
       <MiddleNav />
       <BottomNav />
-      {/* <PropertyModal /> */}
       <PropertyCardContainer />
       
     </div>
