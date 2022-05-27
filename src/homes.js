@@ -13,7 +13,7 @@ export default [
 
     },
     {
-        id: 1,
+        id: 2,
         address_number: 1105,
         address_street: "Kentfield Rd.",
         address_city: "Chico",
@@ -26,7 +26,7 @@ export default [
         
     },
     {
-        id: 1,
+        id: 3,
         address_number: 1760,
         address_street: "Lakeside Dr.",
         address_city: "Redding",
@@ -37,5 +37,6 @@ export default [
         rented: true,
         open_maintenance_requests: 0
         
-    }
+    },
+    
 ]
