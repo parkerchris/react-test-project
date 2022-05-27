@@ -119,7 +119,6 @@
 
 .property-wrapper {
   width: 80%;
-  display: flex;
 }
 
 
@@ -128,6 +127,8 @@
 .property-card-container {
   width: 300px;
   margin-right: 25px;
+  display: inline-block;
+  margin-bottom: 50px;
   
 }
 
