@@ -11,12 +11,16 @@ import { faReceipt } from '@fortawesome/pro-light-svg-icons'
 
 
 function BottomNav() {
+    
+
+   
+    
     return (
       <div className="nav-three">
         <div className="icon-header-container">
-            <div className="icon-container test">
-                <FontAwesomeIcon icon={faHouseBuilding} className="icon testone" />
-                <p className="icon-header testone">Properties</p>
+            <div className="icon-container">
+                <FontAwesomeIcon icon={faHouseBuilding} className="icon" />
+                <p className="icon-header">Properties</p>
             </div>
             
             <div className="icon-container">

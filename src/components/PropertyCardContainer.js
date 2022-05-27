@@ -13,6 +13,11 @@ function PropertyCardContainer() {
       return (<PropertyCard 
                   addressNumber={property.address_number}
                   addressStreet={property.address_street}
+                  addressCity={property.address_city}
+                  addressState={property.address_state}
+                  addressZip={property.address_zip}
+                  value={property.value}
+                  rent={property.rent}
                   />)
    })
 
