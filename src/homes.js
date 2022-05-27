@@ -38,5 +38,160 @@ export default [
         open_maintenance_requests: 0
         
     },
-    
+    {
+        id: 3,
+        address_number: 1760,
+        address_street: "Lakeside Dr.",
+        address_city: "Redding",
+        address_state: "CA",
+        address_zip: 96001,
+        value: 310000,
+        rent: 1850,
+        rented: true,
+        open_maintenance_requests: 0
+        
+    },
+    {
+        id: 3,
+        address_number: 1760,
+        address_street: "Lakeside Dr.",
+        address_city: "Redding",
+        address_state: "CA",
+        address_zip: 96001,
+        value: 310000,
+        rent: 1850,
+        rented: true,
+        open_maintenance_requests: 0
+        
+    },
+    {
+        id: 3,
+        address_number: 1760,
+        address_street: "Lakeside Dr.",
+        address_city: "Redding",
+        address_state: "CA",
+        address_zip: 96001,
+        value: 310000,
+        rent: 1850,
+        rented: true,
+        open_maintenance_requests: 0
+        
+    },
+    {
+        id: 3,
+        address_number: 1760,
+        address_street: "Lakeside Dr.",
+        address_city: "Redding",
+        address_state: "CA",
+        address_zip: 96001,
+        value: 310000,
+        rent: 1850,
+        rented: true,
+        open_maintenance_requests: 0
+        
+    },
+    {
+        id: 3,
+        address_number: 1760,
+        address_street: "Lakeside Dr.",
+        address_city: "Redding",
+        address_state: "CA",
+        address_zip: 96001,
+        value: 310000,
+        rent: 1850,
+        rented: true,
+        open_maintenance_requests: 0
+        
+    },
+    {
+        id: 3,
+        address_number: 1760,
+        address_street: "Lakeside Dr.",
+        address_city: "Redding",
+        address_state: "CA",
+        address_zip: 96001,
+        value: 310000,
+        rent: 1850,
+        rented: true,
+        open_maintenance_requests: 0
+        
+    },
+    {
+        id: 3,
+        address_number: 1760,
+        address_street: "Lakeside Dr.",
+        address_city: "Redding",
+        address_state: "CA",
+        address_zip: 96001,
+        value: 310000,
+        rent: 1850,
+        rented: true,
+        open_maintenance_requests: 0
+        
+    },
+    {
+        id: 3,
+        address_number: 1760,
+        address_street: "Lakeside Dr.",
+        address_city: "Redding",
+        address_state: "CA",
+        address_zip: 96001,
+        value: 310000,
+        rent: 1850,
+        rented: true,
+        open_maintenance_requests: 0
+        
+    },
+    {
+        id: 3,
+        address_number: 1760,
+        address_street: "Lakeside Dr.",
+        address_city: "Redding",
+        address_state: "CA",
+        address_zip: 96001,
+        value: 310000,
+        rent: 1850,
+        rented: true,
+        open_maintenance_requests: 0
+        
+    },
+    {
+        id: 3,
+        address_number: 1760,
+        address_street: "Lakeside Dr.",
+        address_city: "Redding",
+        address_state: "CA",
+        address_zip: 96001,
+        value: 310000,
+        rent: 1850,
+        rented: true,
+        open_maintenance_requests: 0
+        
+    },
+    {
+        id: 3,
+        address_number: 1760,
+        address_street: "Lakeside Dr.",
+        address_city: "Redding",
+        address_state: "CA",
+        address_zip: 96001,
+        value: 310000,
+        rent: 1850,
+        rented: true,
+        open_maintenance_requests: 0
+        
+    },
+    {
+        id: 3,
+        address_number: 1760,
+        address_street: "Lakeside Dr.",
+        address_city: "Redding",
+        address_state: "CA",
+        address_zip: 96001,
+        value: 310000,
+        rent: 1850,
+        rented: true,
+        open_maintenance_requests: 0
+        
+    },
 ]
