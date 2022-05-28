@@ -1,24 +1,17 @@
 
 import './App.css';
-import TopNav from './components/TopNav';
-import BottomNav from './components/BottomNav';
-import PropertyCardContainer from './components/PropertyCardContainer';
-import MiddleNav from './components/MiddleNav'
-import PropertyModal from './components/PropertyModal';
-import Footer from './components/Footer';
-import FooterTop from './components/FooterTop';
+import Properties from './pages/Properties';
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
 function App() {
   return (
-    <div>
-      <TopNav />
-      <BottomNav />
-      <MiddleNav />
-      <PropertyCardContainer />
-      <FooterTop />
-      <Footer />
-      
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/properties" element={<Properties/>}/>
+      </Routes>
+    </BrowserRouter>
+    
+
   );
 }
 

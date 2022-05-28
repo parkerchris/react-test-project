@@ -3,7 +3,7 @@
 function Analytics() {
     return (
         <div className="analytics-container">
-            <div className="one">
+            <div className="analytics-inner-container">
                 <h3 className="analytics-header">VALUE</h3>
                 <p className="dollar">$4,240,000</p>
                 <div className="analytics-inner">
@@ -12,8 +12,8 @@ function Analytics() {
                 </div>
             </div>
 
-            <div>
-                <h3 className="analytics-header">RENT ROLL</h3>
+            <div className="analytics-inner-container">
+                <h3 className="analytics-header">RENT</h3>
                 <p className="dollar">$17,000</p>
                 <div className="analytics-inner">
                     <p className="analytics-p">+$1,300</p>

@@ -32,37 +32,37 @@ function PropertyModal() {
             <h1>Add a property</h1>
             <input 
                 type="text"
-                placeholder="enter a street number"
+                placeholder="street number"
                 onChange={handleChange}
                 name="number"
             />
             <input 
                 type="text"
-                placeholder="enter a street name"
+                placeholder="street name"
                 onChange={handleChange}
                 name="street"
             />
             <input 
                 type="text"
-                placeholder="enter a city"
+                placeholder="city"
                 onChange={handleChange}
                 name="city"
             />
             <input 
                 type="text"
-                placeholder="enter a state"
+                placeholder="state"
                 onChange={handleChange}
                 name="state"
             />
             <input 
                 type="text"
-                placeholder="enter a zip code"
+                placeholder="zip code"
                 onChange={handleChange}
                 name="zip"
             />
             <input 
                 type="text"
-                placeholder="enter monthly rent"
+                placeholder="monthly rent"
                 onChange={handleChange}
                 name="rent"
             />
