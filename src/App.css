@@ -38,7 +38,9 @@
   border: none;
   /* border: 1px solid rgb(221, 221, 221); */
   /* background: linear-gradient(to right,#FF385C 0%,#E61E4D 27.5%,#E31C5F 40%,#D70466 57.5%,#BD1E59 75%,#BD1E59 100%); */
-  background: linear-gradient(to right,#E61E4D 0%,#E31C5F 50%,#D70466 100%);
+  /* background: linear-gradient(to right,#E61E4D 0%,#E31C5F 50%,#D70466 100%); */
+  background-color: rgb(255, 0, 131);
+  box-shadow: rgba(255, 0, 131, 0.5) 0px 10px 40px -10px;
   margin-right: 25px;
 } 
 
@@ -64,6 +66,7 @@
 
 .analytics-header {
   font-size: 14px;
+  font-weight: 400;
 }
 
 .dollar {
@@ -153,13 +156,19 @@
   margin-right: 25px;
   display: inline-block;
   margin-bottom: 50px;
-  
+  background-color: rgb(255, 255, 255);
+  border-bottom-color: rgb(74, 74, 74);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 47px 46px -27px;
+}
+
+.property-card-container p {
+  margin-left: 10px;
 }
 
 .property-image {
   height: 285px;
   width: 300px;
-  border: 1px solid rgb(221, 221, 221);
+  /* border: 1px solid rgb(221, 221, 221); */
   border-radius: 10px;
   margin-bottom: 10px;
 }
@@ -176,6 +185,7 @@
 
 .property-rent span {
   font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .testone {
@@ -209,6 +219,15 @@ input {
   float: right;
 }
 
+
+.footer-top {
+  background-image: url("C:/users/owner/desktop/react-comps/components/resources/Revised_Lemon.png");
+  height: 820px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  z-index: -1;
+}
 
 .footer-container {
   height: 50px;
